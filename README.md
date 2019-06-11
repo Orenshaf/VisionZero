@@ -24,7 +24,7 @@ This visualization consists of a single screen with a clickable map of New York 
 
 ### Data & APIs
 
-CE Data is available through API and direct download from the [NYPD](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95). This visualization uses locally stored data stored as `.csv`.
+CE Data is available through API and direct download from the [NYPD](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95).
 
 ### Technologies
 
