@@ -7,14 +7,14 @@ Every year the NYPD Motor releases data on every collision in New York City. The
 ### Functionality & MVP  
 VisionZero users can:
 
-- [ ] See a broad overview of accidents in New York City from January 1st, 2009 until January 1st, 2019
-- [ ] See specific statistics about accidents for each borough in New York City
-- [ ] Toggle data between injuries and fatalities
+ * See a broad overview of accidents in New York City from January 1st, 2009 until January 1st, 2019
+ * See specific statistics about accidents for each borough in New York City
+ * Toggle data between injuries and fatalities
 
 In addition, this project contains:
 
-- [ ] An informational modal describing the cross entropy (CE) methodology with links to raw data
-- [ ] A production README
+ * An informational modal describing the cross entropy (CE) methodology with links to raw data
+ * A production README
 
 
 ### Wireframe
@@ -30,8 +30,8 @@ CE Data is available through API and direct download from the [NYPD](https://dat
 
 VisionZero will be built with:
 
-- `JavaScript` for retrieving data and calculations
-- `HTML5` and `CSS3` for interactive visualization
-- `Webpack` and `Babel` to bundle js files.
+* `JavaScript` for retrieving data and calculations
+* `HTML5` and `CSS3` for interactive visualization
+* `Webpack` and `Babel` to bundle js files.
 
 
