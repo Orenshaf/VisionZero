@@ -18,7 +18,7 @@ In addition, this project contains:
 
 
 ### Wireframe
-This visualization consists of a single screen with a clickable map of New York City to breakdown by borough<sub>(a)</sub>, a pie chart showing injuries/deaths<sub>(b)</sub>, and a line chart injuries/deaths through the years<sub>(c)</sub>.
+This visualization consists of a single screen with a clickable map of New York City to breakdown data by borough<sub>(a)</sub>, a pie chart showing injuries/deaths<sub>(b)</sub>, and a line chart injuries/deaths through the years<sub>(c)</sub>.
 
 ![Wireframe](https://i.imgur.com/8L2lpPq.png)
 
