@@ -2,7 +2,7 @@
 
 In 2014 the Mayor Bill de Blasio put forth the Vision Zero initiative with the intention of ending traffic deaths and injuries in New York City.
 
-Every year the NYPD Motor releases data on every collision in New York City. The data represented in VisionZero intends to reflect the effect of Mayor de Blasio's initiative.
+Every year the NYPD releases data on every collision in New York City. The data represented in VisionZero intends to reflect the effect of Mayor de Blasio's initiative.
 
 ### Functionality & MVP  
 VisionZero users can:
