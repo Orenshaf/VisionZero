@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const data = {
         "$select": "date, borough, number_of_persons_injured, number_of_persons_killed, number_of_pedestrians_injured, number_of_pedestrians_killed, number_of_cyclist_injured, number_of_cyclist_killed, number_of_motorist_injured, number_of_motorist_killed",
-        "$limit": 100,
+        "$limit": 2000000,
+        "$where": "borough IS NOT NULL",
         "$$app_token": "2sSaKKLyrQJ6NGnDCvtjftDQd"
     }
 
