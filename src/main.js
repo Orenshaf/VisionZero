@@ -1,5 +1,6 @@
-import Graph from '../lib/graph';
 import TotalData from '../lib/util/total_data_util';
+import ParseData from '../lib/data/parse_data';
+import Chart from '../lib/chart';
 
 document.addEventListener("DOMContentLoaded", () => {
     const url = new URL("https://data.cityofnewyork.us/resource/qiz3-axqb.json");
@@ -15,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     TotalData(url).then(response => {
         alert("done fetching data");
-        Graph(response);
+        Chart(ParseData(response));
     })
 })
 
