@@ -1,18 +1,23 @@
-.deathBar {
-  fill: steelblue;
-}
-
-.injuryBar {
-  fill: pink;
+body { 
+  margin:0;
+  position:fixed;
+  top:0;right:0;
+  bottom:0;
+  left:0; 
 }
 
 .axis text {
   font: 10px sans-serif;
 }
 
-.axis path,
-.axis line {
+.axis line,
+.axis path {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
+}
+
+.axis--x path,
+.axis--x line {
+  display: none;
 }
