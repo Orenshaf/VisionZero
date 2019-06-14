@@ -1,8 +1,9 @@
 import TotalData from '../lib/util/total_data_util';
 import ParseData from '../lib/data/parse_data';
-import Chart from '../lib/chart';
+import ChooseData from '../lib/data/choose_data';
 
 document.addEventListener("DOMContentLoaded", () => {
+    let DATA;
     const url = new URL("https://data.cityofnewyork.us/resource/qiz3-axqb.json");
 
     const data = {
@@ -16,7 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     TotalData(url).then(response => {
         alert("done fetching data");
-        Chart(ParseData(response));
+        DATA = ParseData(response);
+        ChooseData(DATA);
     })
 })
 
