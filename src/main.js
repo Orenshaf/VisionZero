@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     url.search = new URLSearchParams(data);
 
     TotalData(url).then(response => {
-        alert("done fetching data");
         DATA = ParseData(response);
         ChooseData(DATA);
     })
