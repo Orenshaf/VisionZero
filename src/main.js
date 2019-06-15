@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     url.search = new URLSearchParams(data);
 
     TotalData(url).then(response => {
-        document.getElementById('loader').remove();
+        document.getElementById("loader").remove();
         DATA = ParseData(response);
         ChooseData(DATA);
     })
