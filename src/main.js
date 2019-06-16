@@ -1,6 +1,8 @@
 import TotalData from '../lib/util/total_data_util';
 import ParseData from '../lib/data/parse_data';
 import ChooseData from '../lib/data/choose_data';
+import Chart from '../lib/charts/chart';
+import ChooseChart from '../lib/charts/choose_chart';
 
 document.addEventListener("DOMContentLoaded", () => {
     let DATA;
@@ -19,6 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("loader").remove();
         DATA = ParseData(response);
         ChooseData(DATA);
+        ChooseChart();
+        Chart(DATA);
     })
 })
 
