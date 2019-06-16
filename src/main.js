@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("loader").remove();
         DATA = ParseData(response);
         ChooseData(DATA);
-        ChooseChart();
+        ChooseChart(DATA);
         Chart(DATA);
     })
 })
