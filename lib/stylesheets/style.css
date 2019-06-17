@@ -21,3 +21,27 @@ body {
 .axis--x line {
   display: none;
 }
+
+.layer-0 {
+  fill: #ff8c00;
+}
+
+.layer-1 {
+  fill: #d0743c;
+}
+
+.layer-2 {
+  fill: #a05d56;
+}
+
+.layer-3 {
+  fill: #6b486b;
+}
+
+.layer-4 {
+  fill: #8a89a6;
+}
+
+.layer-5 {
+  fill: #7b6888;
+}
