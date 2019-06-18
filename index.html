@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>VisionZero</title>
+    <link rel="stylesheet" href="./lib/stylesheets/reset.css">
     <link rel="stylesheet" href="./lib/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600,700&display=swap" rel="stylesheet">
     <script src="https://d3js.org/d3.v5.js"></script>
     <script src="./lib/bundle.js"></script>
     
 </head>
 <body>
-    <h1 id="loader">Please wait for data to load...</h1>
+    <div id="dashboard">
+        <div id="loader">
+            <div class="lds-css ng-scope">
+                <div style="width:100%;height:100%" class="lds-bar-chart">
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="loader">
+                Fetching data<span class="loader__dot">.</span><span class="loader__dot">.</span><span class="loader__dot">.</span>
+            </div>
+        </div>
+            
+        <div class="info">
+            <p>
+                In 2014 the Mayor of New York City, Bill de Blasio, created a program called the 'Vision Zero Initiative'. He based the initiaitive on a a similar one done in Sweden. The overall idea behind Vision Zero is that deaths and injuries are not actually accidents 
+                and instead they are a result of poor civic planning. His goal was to eliminate ALL traffic deaths and serious injuries in New York City. The following data shows a breakdown of all deaths and injuries to motorist, cyclist and pedestrian from 2013-2018.
+            </p>
+        </div>
+    </div>
+
+
+    
 </body>
 </html>

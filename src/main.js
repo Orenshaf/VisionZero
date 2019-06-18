@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     url.search = new URLSearchParams(data);
 
     TotalData(url).then(response => {
-        document.getElementById("loader").remove();
+        document.getElementById("dashboard").remove();
         DATA = ParseData(response);
         ChooseData(DATA);
         ChooseChart(DATA);
