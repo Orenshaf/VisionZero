@@ -1,3 +1,11 @@
+html { 
+  background: url('../../assets//images/450430.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body { 
   margin:0;
   position:fixed;
@@ -5,6 +13,7 @@ body {
   bottom:0;
   left:0; 
   font-family: 'Signika', sans-serif;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 button {
@@ -139,4 +148,16 @@ datalist p {
 
 button:hover {
   cursor: pointer;
+}
+
+#chart {
+  background: rgba(255, 255, 255, 0.8);
+  border: 5px solid #c3c3c3;
+  border-radius: 5px;
+  padding: 20px 0 20px 20px;
+}
+
+.map-explanation {
+  margin-top: 50px;
+  text-align: center;
 }
