@@ -14,8 +14,10 @@ Every year the NYPD releases data on every collision in New York City. The data 
 * `HTML5` and `CSS3` for interactive visualization
 * `Webpack` and `Babel` to bundle js files.
 
-
 ### Features 
+
+![Giphy](https://media.giphy.com/media/RG3dTMvBAR6qmX81Nx/giphy.gif)
+
 VisionZero users can:
 
  * See a broad overview of accidents in New York City from January 1st, 2013 until December 31st, 2018
