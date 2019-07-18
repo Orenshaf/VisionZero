@@ -26,7 +26,33 @@ VisionZero users can:
  * Toggle between boroughs by double clicking on map
  * Toggle heatmap points by year
  
+One of the biggest challenges was retreiving over a million data points and still having the application run smoothly. In order to do this I made fetch requests to each borough one by one and parsed the data in the background. Just as an example, here is how I fetched the data for Manhattan and Queens, but I continued the process for the other boroughs:
 
+```javascript
+TotalData(manhattanUrl).then(response => {
+        ParseData(response).then((res) => {
+            Store['MANHATTAN'] = res;
+            map = new DataMap();
+            map.initializeMap();
+            setTimeout(() => CreateSlider(map), 2000);
+            map.addMapData(Store["MANHATTAN"], "MANHATTAN");
+            CreateButtons();
+            ChooseChart(Store["MANHATTAN"]);
+            ChooseData(Store["MANHATTAN"], ["MANHATTAN"], map);
+            Chart(Store["MANHATTAN"]);
+            LoadedButton(map);
+        });
+    }).then(() => {
+        TotalData(queensUrl).then(response => {
+            ParseData(response).then(res => {
+                Store["QUEENS"] = res;
+                map.addMapData(Store["QUEENS"], "QUEENS");
+                ChooseData(Store["QUEENS"], "QUEENS", map);
+            })
+        }).then(() => {
+        ...
+        }
+```
 
 ### Wireframe
 This visualization consists of a single screen with a clickable map of New York City to breakdown data by borough<sub>(a)</sub> and a line chart injuries/deaths through the years<sub>(b)</sub>.
