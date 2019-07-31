@@ -133,6 +133,7 @@ button {
 #buttons {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 #radios {
@@ -144,7 +145,7 @@ button {
   padding: 15px 15px 0 15px;
   border-radius: 4px;
   background: white;
-  margin-top: 15px;
+  margin: 15px 15px 0 0;
 }
 
 datalist p {
@@ -163,9 +164,16 @@ button:hover {
 }
 
 .map-explanation {
-  margin-top: 50px;
-  text-align: center;
-  width: 680px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.9);
+  border-right: 5px solid #c3c3c3;
+  border-bottom: 5px solid #c3c3c3;
+  border-bottom-right-radius: 5px;
+  font-size: 12px;
+  font-family: 'Signika', sans-serif;
+  font-weight: 300;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .vision-zero {
@@ -200,4 +208,12 @@ button:hover {
   color: black;
   font-size: 1.5rem;
   margin: 0 5px;
+}
+
+.explanation {
+  width: 600px;
+  padding: 10px 10px 0 0;
+  margin-top: 10px;
+  border-top: 1px #c3c3c3 solid;
+  font-weight: 300;
 }
